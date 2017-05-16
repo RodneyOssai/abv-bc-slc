@@ -19,7 +19,7 @@ let getPrimes = (n) => {
                   numberList[i*j] = 0;
                 } 
               }
-              // after excluding this two, what remaining must be a prime number so we display it
+              // after excluding this two, what remaining must be a prime number so we push it into the prime numbers array
               for(let i = 2; i < maxSize; i++){
                   if (numberList[i]){
                     primeNumbers.push(i);
