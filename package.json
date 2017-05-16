@@ -1,23 +1,21 @@
 {
-  "name": "package",
+  "name": "abv-bc-slc",
   "version": "1.0.0",
-  "description": "Javascript project for slc",
-  "main": "src/code.js",
+  "description": "Function to generate primes ",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.15.2",
-    "jasmine-node": "^1.14.5",
-    "request": "^2.81.0"
+    "jasmine": "^2.6.0"
   },
-  "devDependencies": {"jasmine-node": "^1.14.5"},
+  "devDependencies": {},
   "scripts": {
-    "test": "spec/spec.js"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RodneyOssai/abv-bc-slc.git"
+    "url": "git+https://github.com/RodneyOssai/abv-bc-slc.git"
   },
   "author": "Nduka Ossai",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RodneyOssai/abv-bc-slc/issues"
   },

@@ -1,4 +1,5 @@
-let getPrimes = (n) => {
+module.exports = {
+  getPrimes:  (n) => {
   
           if ((typeof n === 'string') || (n === undefined)) {
             primeNumbers = "Invalid Input";
@@ -27,4 +28,5 @@ let getPrimes = (n) => {
               }
         }
 return primeNumbers;
-};
+}
+}; 
