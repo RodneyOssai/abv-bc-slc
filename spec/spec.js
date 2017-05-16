@@ -1,13 +1,14 @@
 //My Testing code goes here
+ var c = require("../src/code.js");
 
 describe("Edge Cases For prime Number Function", function(){ 
    
    it("should return an empty array for 1",function(){ 
-      expect(getPrimes(1)).toEqual([]); 
+      expect(c.getPrimes(1)).toEqual([]); 
    });
 
    it("should return an empty array for 0",function(){ 
-      expect(getPrimes(0)).toEqual([]); 
+      expect(dApp.getPrimes(0)).toEqual([]); 
    });
 
    it("should return 'Invalid Input' for a string",function(){ 

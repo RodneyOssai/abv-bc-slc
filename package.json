@@ -4,10 +4,11 @@
   "description": "Javascript project for slc",
   "main": "src/code.js",
   "dependencies": {
+    "express": "^4.15.2",
     "jasmine-node": "^1.14.5",
     "request": "^2.81.0"
   },
-  "devDependencies": {},
+  "devDependencies": {"jasmine-node": "^1.14.5"},
   "scripts": {
     "test": "spec/spec.js"
   },
