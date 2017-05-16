@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Javascript project for slc",
+  "main": "src/code.js",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "spec/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodneyOssai/abv-bc-slc.git"
+  },
+  "author": "Nduka Ossai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodneyOssai/abv-bc-slc/issues"
+  },
+  "homepage": "https://github.com/RodneyOssai/abv-bc-slc#readme"
+}
